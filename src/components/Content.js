@@ -4,7 +4,7 @@ import img3 from '../images/3.jpg'
 
 const Content = () => {
   return (
-    <div class='grid grid-cols-3 gap-4'>
+    <div class='grid md:grid-cols-3 gap-2 grid-cols-1'>
       <div className='card'>
         <img src={img1} alt='girl' className='h-full rounded mb-20 shadow' />
         <div className='flex flex-col justify-center items-center'>
